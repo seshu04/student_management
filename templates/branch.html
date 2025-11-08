@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Branches</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: #f8f9fa;
+      font-family: 'Poppins', sans-serif;
+    }
+    .container {
+      margin-top: 80px;
+      max-width: 1000px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .card {
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      transition: all 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+    .card img {
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+      height: 180px;
+      object-fit: cover;
+    }
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      color: #6c757d;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="/">Student Portal</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="/branch/">Branches</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="header">
+      <h2>🏫 Our Branches</h2>
+      <p class="text-muted">Explore our different branches across regions</p>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800" alt="Branch 1">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Central Campus</h5>
+            <p class="card-text">Located in the heart of the city, our main campus offers a full range of academic programs and student facilities.</p>
+            <p class="text-muted small mb-1"><b>Address:</b> 123 City Road, New Delhi</p>
+            <p class="text-muted small mb-0"><b>Contact:</b> +91 98765 43210</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=800" alt="Branch 2">
+          <div class="card-body">
+            <h5 class="card-title text-primary">North Branch</h5>
+            <p class="card-text">Focused on science and technology streams, the North branch provides advanced labs and research support.</p>
+            <p class="text-muted small mb-1"><b>Address:</b> 56 River Lane, Chandigarh</p>
+            <p class="text-muted small mb-0"><b>Contact:</b> +91 91234 56789</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://images.unsplash.com/photo-1600180758890-6e1f1c451b2d?w=800" alt="Branch 3">
+          <div class="card-body">
+            <h5 class="card-title text-primary">South Branch</h5>
+            <p class="card-text">Known for its creative arts and humanities programs, this branch encourages innovation and collaboration.</p>
+            <p class="text-muted small mb-1"><b>Address:</b> 89 Lake View Street, Bengaluru</p>
+            <p class="text-muted small mb-0"><b>Contact:</b> +91 99876 12345</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p class="mt-5">&copy; 2025 Student Portal | All Rights Reserved</p>
+    </footer>
+  </div>
+
+</body>
+</html>
